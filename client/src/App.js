@@ -1,4 +1,4 @@
-// import abi from "./contract/chai.json";
+
 
 // import {useState,useEffect} from 'react';
 // import {BrowserProvider,Contract} from "ethers";
@@ -122,7 +122,7 @@ function App() {
           setAccount(address);
           setState({ provider, signer, contract });
         } else {
-          alert("Metamask Not Found, Press Ok to Install");
+          alert("Metamask Not Found, Press Ok to Installtion");
           window.location.href = "https://metamask.io/download";
         }
 
