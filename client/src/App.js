@@ -1,4 +1,4 @@
-
+// import abi from "./contract/chai.json";
 
 // import {useState,useEffect} from 'react';
 // import {BrowserProvider,Contract} from "ethers";
