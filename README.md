@@ -28,8 +28,33 @@ A simple decentralized application where users can buy you a "chai" (like a smal
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/AayushJain-23/Buychaidapp.git
 cd Buychaidapp
-
+```
 ### 2. Install Hardhat dependencies
+```
+npm install
+
+```
+### 3. Compile the contract
+```
+npx hardhat compile
+
+
+```
+### 4. Deploy to Sepolia (make sure .env has your private key and Infura/Alchemy endpoint)
+```
+npx hardhat run scripts/deploy.js --network sepolia
+
+
+```
+### 5. Start the frontend
+```
+cd client
+npm install
+npm start
+
+
+
+```
