@@ -31,3 +31,5 @@ A simple decentralized application where users can buy you a "chai" (like a smal
 ```bash
 git clone https://github.com/AayushJain-23/Buychaidapp.git
 cd Buychaidapp
+
+### 2. Install Hardhat dependencies
