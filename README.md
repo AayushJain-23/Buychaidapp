@@ -1,13 +1,33 @@
-# Sample Hardhat Project
+# Chai DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A simple decentralized application where users can buy you a "chai" (like a small tip) by sending ETH along with their name and a message. Built using Solidity for the smart contract and React + Ethers.js for the frontend.
 
-Try running some of the following tasks:
+---
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Features
+
+- Connect MetaMask wallet
+- Send ETH with a message and name
+- View messages from all contributors
+- Fully deployed on Sepolia Testnet
+
+---
+
+## Tech Stack
+
+- **Smart Contract**: Solidity
+- **Blockchain Framework**: Hardhat
+- **Frontend**: React.js
+- **Blockchain Communication**: Ethers.js
+- **Wallet Integration**: MetaMask
+- **Test Network**: Sepolia
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AayushJain-23/Buychaidapp.git
+cd Buychaidapp
